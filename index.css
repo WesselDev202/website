@@ -1,7 +1,15 @@
-body {
+#Main {
     text-align: center;
     background-color: gray;
     color: rgb(0, 0, 0);
+}
+
+#Copy {
+    text-align: left;
+
+    position: relative;
+
+    top: 1px;
 }
 
 #Welcome {
