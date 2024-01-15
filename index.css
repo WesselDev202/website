@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    color: rgb(0, 0, 0);
+}
+
+#Welcome {
+    text-align: center;
+}
+
+#Cuber_2 {
+    padding-top: 10px;
+}
+
+#Cuber_2_Remake {
+    padding-top: 10px;
+}
+
+#C1B {
+    position: relative;
+
+    top: 20px;
+
+    Right: 320px
+}
+
+#C2B {
+    position: relative;
+
+    top: 20px;
+
+    Right: 320px
+}
+
+#C2RB {
+    position: relative;
+
+    top: 20px;
+
+    Right: 350px
+}
