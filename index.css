@@ -2,26 +2,44 @@
     text-align: center;
     background-color: gray;
     color: rgb(0, 0, 0);
+    padding: 10px; /* Add padding for better spacing on mobile */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
 #Copy {
     text-align: left;
-
-    position: relative;
-
-    top: 1px;
 }
 
 #Welcome {
     text-align: center;
 }
 
-#Cuber_2, #Cuber_2_Remake {
-    padding-top: 10px;
+#Cuber_2,
+#Cuber_2_Remake {
+    margin-top: 10px; /* Add margin for better spacing on mobile */
 }
 
-#C1B, #C2B, #C2RB {
-    position: relative;
-    top: 20px;
-    right: 320px;
+/* Use flexbox for button alignment */
+#Cuber_1,
+#Cuber_2,
+#Cuber_2_Remake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the buttons */
+button {
+    margin-top: 10px; /* Add margin for better spacing on mobile */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    #C1B,
+    #C2B,
+    #C2RB {
+        order: 1; /* Change the order of buttons on smaller screens */
+        margin-top: 15px; /* Adjust margin as needed */
+    }
 }
