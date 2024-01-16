@@ -2,8 +2,8 @@
     text-align: center;
     background-color: gray;
     color: rgb(0, 0, 0);
-    padding: 10px; /* Add padding for better spacing on mobile */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #Copy {
@@ -14,32 +14,32 @@
     text-align: center;
 }
 
-#Cuber_2,
-#Cuber_2_Remake {
-    margin-top: 10px; /* Add margin for better spacing on mobile */
-}
-
-/* Use flexbox for button alignment */
+/* Style the game divs */
 #Cuber_1,
 #Cuber_2,
 #Cuber_2_Remake {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 20px 0; /* Add margin for better spacing on mobile */
+    padding: 15px;
+    background-color: white; /* Set a background color for better visibility */
 }
 
 /* Style the buttons */
 button {
-    margin-top: 10px; /* Add margin for better spacing on mobile */
-    padding: 10px; /* Adjust padding as needed */
+    display: block; /* Make buttons full-width by default */
+    margin-top: 10px;
+    padding: 10px;
 }
 
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
-    #C1B,
-    #C2B,
-    #C2RB {
-        order: 1; /* Change the order of buttons on smaller screens */
-        margin-top: 15px; /* Adjust margin as needed */
+    /* Adjust the layout for smaller screens */
+    #Cuber_1,
+    #Cuber_2,
+    #Cuber_2_Remake {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%; /* Make buttons full-width on smaller screens */
     }
 }
