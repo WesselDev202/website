@@ -16,34 +16,12 @@
     text-align: center;
 }
 
-#Cuber_2 {
+#Cuber_2, #Cuber_2_Remake {
     padding-top: 10px;
 }
 
-#Cuber_2_Remake {
-    padding-top: 10px;
-}
-
-#C1B {
+#C1B, #C2B, #C2RB {
     position: relative;
-
     top: 20px;
-
-    Right: 320px
-}
-
-#C2B {
-    position: relative;
-
-    top: 20px;
-
-    Right: 320px
-}
-
-#C2RB {
-    position: relative;
-
-    top: 20px;
-
-    Right: 350px
+    right: 320px;
 }
