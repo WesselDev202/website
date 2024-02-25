@@ -1,7 +1,7 @@
 #Main {
     text-align: center;
     background-color: gray;
-    color: rgb(0, 0, 0);
+    color: rgb(182, 182, 182);
     padding: 10px;
     box-sizing: border-box;
 }
@@ -14,32 +14,34 @@
     text-align: center;
 }
 
-/* Style the game divs */
 #Cuber_1,
 #Cuber_2,
-#Cuber_2_Remake {
-    margin: 20px 0; /* Add margin for better spacing on mobile */
+#Cuber_2_Remake,
+#Cuber_3,
+#SurvivalCraft,
+#Reactor_Resurgence {
+    margin: 20px 0;
     padding: 15px;
-    background-color: white; /* Set a background color for better visibility */
+    background-color: rgb(73, 73, 73);
 }
 
-/* Style the buttons */
 button {
-    display: block; /* Make buttons full-width by default */
+    display: block;
     margin-top: 10px;
     padding: 10px;
 }
 
-/* Media query for smaller screens */
 @media screen and (max-width: 600px) {
-    /* Adjust the layout for smaller screens */
     #Cuber_1,
     #Cuber_2,
-    #Cuber_2_Remake {
+    #Cuber_2_Remake,
+    #Cuber_3,
+    #SurvivalCraft,
+    #Reactor_Resurgence {
         padding: 10px;
     }
 
     button {
-        width: 100%; /* Make buttons full-width on smaller screens */
+        width: 100%;
     }
 }
